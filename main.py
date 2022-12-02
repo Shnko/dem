@@ -1,0 +1,6 @@
+print("Придумайте название для заметки")
+my_file = open(input() + '.txt', "w")
+print("Введите текст")
+filetext = input()
+my_file.write(filetext)
+my_file.close()
